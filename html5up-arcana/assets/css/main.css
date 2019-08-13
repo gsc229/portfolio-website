@@ -2545,7 +2545,7 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				font-size: 1.5em;
+				font-size: 2.5em;
 				letter-spacing: -0.025em;
 				border: 0;
 			}
@@ -2674,10 +2674,12 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
-		background-position: center center;
+		background-image: url("/html5up-arcana/images/tyler-nix-64TNDO1n7Wg-unsplash-building-to-street.jpg");
+		background-position-y: -1550px;
 		background-size: cover;
-		height: 28em;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		height: 20em;
 		text-align: center;
 		position: relative;
 	}
