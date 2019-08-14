@@ -2541,13 +2541,17 @@ input, select, textarea {
 
 		#header h1 {
 			padding: 0 0 2.75em 0;
-			margin: 0;
+			/* margin: 0; */
 		}
 
 			#header h1 a {
 				font-size: 2.5em;
 				letter-spacing: -0.025em;
 				border: 0;
+			}
+
+			#header h1 a span{
+				font-size: .5em;
 			}
 
 	#nav {
