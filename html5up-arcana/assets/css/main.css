@@ -328,6 +328,14 @@ input, select, textarea {
 			width: 50%;
 		}
 
+		.col-6 .box a img{
+			border: 2px solid black;
+			height: 20vh;
+			width: 100%;
+		}
+
+					
+
 		.row > .off-6 {
 			margin-left: 50%;
 		}
@@ -2541,6 +2549,7 @@ input, select, textarea {
 
 		#header h1 {
 			padding: 0 0 2.75em 0;
+			
 			/* margin: 0; */
 		}
 
@@ -2683,7 +2692,10 @@ input, select, textarea {
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		height: 20em;
+		
+		height: 1vh;
+		
+		margin: auto;
 		text-align: center;
 		position: relative;
 	}
@@ -2723,6 +2735,14 @@ input, select, textarea {
 				margin-left: 1em;
 			}
 
+			/* h2 projects */
+
+			#projects{
+					text-align: center;
+					background:white;
+					margin: 0;
+				}
+
 /* Wrapper */
 
 	.wrapper {
@@ -2731,8 +2751,9 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background: #fff;
+			/* background: green; */
 		}
-
+		
 		.wrapper.style2 {
 			background-color: #fff;
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
@@ -2758,6 +2779,8 @@ input, select, textarea {
 				.wrapper.style3 .button:hover {
 					color: #37c0fb !important;
 				}
+
+				
 
 /* CTA */
 
@@ -2831,7 +2854,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 24em;
+				height: 8em;
 			}
 
 	}
@@ -2876,7 +2899,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 8em;
+				background-position-y: -1055px;
 			}
 
 		/* Wrapper */
@@ -2983,12 +3007,19 @@ input, select, textarea {
 
 			#header {
 				display: none;
+				
+				
+			}
+
+			#header h1{
+				width: 100%;
 			}
 
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 10em;
+				background-position-y: -800px;
 			}
 
 				#banner header h2 {
